@@ -5,6 +5,12 @@
 body{
     font-family: "Work Sans", serif;
 }
+.b-content a:hover,.feature-content a:hover{
+    background-color: transparent;
+    border: 1px solid orangered;
+    color: orangered;
+    transition: .3s all ease-in;
+}
 /* header start */
 header{
     background-color: #FFF4E7;
@@ -61,6 +67,7 @@ nav{
 .b-image img{
     margin-top: 60px;
    margin-bottom: 40px;
+ 
 }
 /* banner end */
 /* header end */
@@ -222,3 +229,12 @@ footer{
     font-size: 20px;
 }
 /* footer end */
+
+
+
+
+
+
+.hide{
+    display: none;
+}
