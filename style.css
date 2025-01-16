@@ -66,7 +66,9 @@ nav{
 /* header end */
 
 /* feature start */
-.feature{}
+.feature{
+margin-bottom: 120px;
+}
 .feature-container{
     display: flex;
     justify-content: center;
@@ -106,3 +108,55 @@ nav{
     font-weight: 600;
 }
 /* feature end */
+
+/* serice start */
+.service{
+    margin-bottom: 120px;
+}
+.service-container{
+    display: flex;
+    justify-content: center;
+    gap: 120px;
+}
+.service-content{
+
+}
+.service-content h3{
+    font-size: 45px;
+    margin-bottom: 24px;
+}
+.service-content p{
+    color: #727272;
+    margin-bottom: 30px;
+}
+.service-item{
+    border-radius: 8px;
+    background: #FFF;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.06);
+    padding: 30px;
+    margin-bottom: 20px;
+}
+.service-item h3{
+    font-size: 20px;
+    font-weight: 600;
+}
+.service-item p{
+
+}
+.service-img{
+
+}
+.service-img img{
+
+}
+.some-facts{
+    margin-top: 168px;
+}
+.some-facts h2{
+    font-size: 45px;
+    margin-bottom: 24px;
+}
+.some-facts p{
+    color: #727272;
+}
+/* serice end */
