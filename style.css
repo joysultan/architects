@@ -66,7 +66,8 @@ nav{
 }
 .b-image img{
     margin-top: 60px;
-   margin-bottom: 40px;
+     margin-bottom: 40px;
+    
  
 }
 /* banner end */
@@ -175,6 +176,7 @@ margin-bottom: 120px;
 .facts-container{
     display: flex;
     justify-content: space-evenly;
+    flex-wrap: wrap;
 }
 .facts-item{
     text-align: center;
@@ -213,6 +215,7 @@ margin-bottom: 120px;
 .brand{
     display: flex;
     justify-content: space-around;
+    flex-wrap: wrap;
 }
 
 /* sponser end */
@@ -220,7 +223,7 @@ margin-bottom: 120px;
 /* footer start */
 footer{
     text-align: center;
-    max-width: 1440px;
+    max-width: 1200px;
     border-radius: 8px;
     background: #FFF4E7;
     margin: 0 auto;

@@ -78,7 +78,19 @@
     font-size: 25px;
     margin-bottom: 15px;
 }
+.service-content p{
+    margin-bottom: 0;
+}
 
+    .brand{
+        flex-direction: column;
+        gap: 20px;
+    }
+    footer{
+        padding: 25px;
+        font-size: 16px;
+    }
+  
 }
 
 /* Small devices (landscape phones, 576px and up) */
@@ -153,7 +165,17 @@
         font-size: 35px;
         margin-bottom: 20px;
     }
-
+    .service-content p{
+        margin-bottom: 0;
+    }
+    .brand-logo img{
+        width: 100%;
+    }
+    footer{
+        max-width: 450px;
+        padding: 30px;
+        font-size: 16px;
+    }
 }
 
  /* Medium devices (tablets, 768px and up) */
@@ -215,6 +237,12 @@
 .service-item h3{
     font-size: 20px;
 }
+.brand-logo img{
+    width: 100%;
+}
+footer{
+    max-width: 600px;
+}
 }
 
 /* Large devices (desktops, 992px and up) */
@@ -240,6 +268,9 @@
     .service-img{
         width: 40%;
     } 
+    footer{
+        max-width: 900px;
+    }
 }
 
  /* Extra large devices (large desktops, 1200px and up) */
@@ -249,7 +280,7 @@
  /* Extra Extra large devices (large desktops, 1400px and up) */
 @media (min-width: 1400px) {
     .b-image img{
-        width: 100%;
+        width: 90%;
     }
     .service-img img{
         width: 95%;
